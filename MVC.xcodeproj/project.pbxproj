@@ -12,6 +12,7 @@
 		142341C32A9A3C83001345D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142341C22A9A3C83001345D8 /* ViewController.swift */; };
 		142341C82A9A3C84001345D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142341C72A9A3C84001345D8 /* Assets.xcassets */; };
 		142341CB2A9A3C84001345D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142341C92A9A3C84001345D8 /* LaunchScreen.storyboard */; };
+		142341D62A9A4198001345D8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142341D52A9A4198001345D8 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		142341C72A9A3C84001345D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		142341CA2A9A3C84001345D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		142341CC2A9A3C84001345D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142341D52A9A4198001345D8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		142341BD2A9A3C83001345D8 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				142341D42A9A418B001345D8 /* Model */,
 				142341D32A9A3C97001345D8 /* Resources */,
 				142341D22A9A3C90001345D8 /* Application */,
 				142341C22A9A3C83001345D8 /* ViewController.swift */,
@@ -78,6 +81,14 @@
 				142341CC2A9A3C84001345D8 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		142341D42A9A418B001345D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				142341D52A9A4198001345D8 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 				142341C32A9A3C83001345D8 /* ViewController.swift in Sources */,
 				142341BF2A9A3C83001345D8 /* AppDelegate.swift in Sources */,
 				142341C12A9A3C83001345D8 /* SceneDelegate.swift in Sources */,
+				142341D62A9A4198001345D8 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
